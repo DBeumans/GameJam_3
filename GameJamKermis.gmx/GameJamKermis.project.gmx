@@ -11,7 +11,11 @@
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\sprite3</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bckg_base</background>
+    <background>background\bckg_yellow</background>
+    <background>background\bckg_red</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="player">
@@ -26,11 +30,12 @@
       </scripts>
     </scripts>
     <script>scripts\scr_Enemy_Movement.gml</script>
+    <script>scripts\scr_Enemy_OnStep.gml</script>
     <script>scripts\scr_Enemy_OnCreate.gml</script>
     <script>scripts\scr_Enemy_OnDraw.gml</script>
-    <script>scripts\scr_Enemy_OnStep.gml</script>
     <script>scripts\scr_Enemy_Spawn.gml</script>
     <script>scripts\scr_EnemySpawner_OnCreate.gml</script>
+    <script>scripts\scr_change_background.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
