@@ -21,15 +21,22 @@
       <script>scripts\scr_player_looking.gml</script>
       <scripts name="bullet">
         <script>scripts\scr_bullet_step.gml</script>
-        <script>scripts\scr_bullet_create.gml</script>
         <script>scripts\scr_collision_enemy.gml</script>
+        <script>scripts\scr_bullet_create.gml</script>
       </scripts>
     </scripts>
+    <script>scripts\scr_Enemy_Movement.gml</script>
+    <script>scripts\scr_Enemy_OnCreate.gml</script>
+    <script>scripts\scr_Enemy_OnDraw.gml</script>
+    <script>scripts\scr_Enemy_OnStep.gml</script>
+    <script>scripts\scr_Enemy_Spawn.gml</script>
+    <script>scripts\scr_EnemySpawner_OnCreate.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_gameManager</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_player</room>

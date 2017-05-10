@@ -47,7 +47,7 @@ if (randPos == 4)
     y = 540;
 }
 
-instance_create(x, y, obj_Enemy);
+instance_create(x, y, obj_enemy);
 
 spawnCount += 1;
 spawnTimeOffset = spawnCount * 7;
