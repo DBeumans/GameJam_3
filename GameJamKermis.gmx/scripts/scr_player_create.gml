@@ -1,0 +1,2 @@
+currentDirection = 1;
+
