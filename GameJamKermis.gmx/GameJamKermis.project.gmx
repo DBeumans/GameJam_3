@@ -10,6 +10,9 @@
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\spr_enemy2</sprite>
+    <sprite>sprites\spr_enemy3</sprite>
+    <sprite>sprites\spr_enemy4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckg_base</background>

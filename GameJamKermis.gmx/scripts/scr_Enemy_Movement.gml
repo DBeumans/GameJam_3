@@ -4,21 +4,25 @@ var player = instance_find(obj_player, 1);
 if (y < player.y)
 {
     vsp += moveSpeed;
+    
 }
 
 if (y > player.y)
 {
     vsp -= moveSpeed;
+   
 }
 
 if (x < player.x)
 {
     hsp += moveSpeed;
+ 
 }
 
 if (x > player.x)
 {
     hsp -= moveSpeed;
+ 
 }
 
 // Max Speed

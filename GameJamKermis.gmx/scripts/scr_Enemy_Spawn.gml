@@ -52,9 +52,9 @@ instance_create(x, y, obj_enemy);
 spawnCount += 1;
 spawnTimeOffset = spawnCount * 7;
 
-if (spawnTimeOffset >= 150)
+if (spawnTimeOffset >= 100)
 {
-    spawnTimeOffset = 150;
+    spawnTimeOffset = 100;
     
 }
 
